@@ -1,0 +1,93 @@
+.sfl-popup-detail {
+    max-width: 320px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 25px;
+    position: relative;
+    padding: 30px;
+}
+.sfl-popup-detail .sfl-desc {
+    font-size: 14px;
+    color: #575757;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.sfl-popup-detail .mfp-close {
+    color: #173863 !important;
+    border: 2px solid #173863;
+    border-radius: 50% !important;
+    width: 25px !important;
+    height: 25px !important;
+    line-height: 22px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    top: 15px;
+    right: 10px;
+    background: transparent !important;
+    max-width: 25px;
+    min-width: 25px !important;
+    min-height: 25px !important;
+    position: absolute !important;
+    padding: 0 !important;
+}
+.sfl-popup-detail .mfp-close:hover{ color:inherit !important;  }
+.sfl_button_div a.sfl-popup-modal {
+    display: inline-block;
+    margin: 0;
+}
+fieldset#wc-snap_finance_lite-cc-form {
+    border: 0 !important;
+}
+.sfl-popup-detail .sfl-logo-img img {
+    max-width: 100px;
+}
+.sfl-popup-detail .sfl-logo-img {    
+    margin: 30px 0;
+}
+.sfl-popup-detail .sfl-desc .title {
+    color: #696561;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.sfl-popup-detail .sfl-desc ul li::before {
+    content: '';
+    background: #000;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.sfl-popup-detail .sfl-desc ul li {
+    margin-bottom: 15px;
+}
+.sfl-popup-detail .sfl-button {
+    text-align: right;
+}
+.sfl-popup-detail .sfl-desc ul {
+    padding: 0;
+}
+.sfl-popup-detail .sfl-button .sfl-apply-button {
+    background: #173863;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.sfl-desc ul li {
+    list-style-type: none;
+}
+.sfl-desc ul {
+    margin: 0;
+}
+#payment .payment_methods li.payment_method_snap_finance_lite img {
+    max-height: 3.618em;
+}
+@media(max-width: 767px){
+    .sfl-popup-detail {padding: 25px;}
+}
